@@ -1,16 +1,15 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
+  <d-icon name="check-circle" style="font-size: 30px;color: red;"></d-icon>
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue'
-import HelloWorld from './components/HelloWorld.vue'
+import { defineComponent } from 'vue';
+import { DIcon } from 'data-view-naive';
 
 export default defineComponent({
   name: 'App',
   components: {
-    HelloWorld
+    DIcon
   }
 })
 </script>
@@ -20,8 +19,6 @@ export default defineComponent({
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
