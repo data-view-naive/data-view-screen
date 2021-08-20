@@ -7,7 +7,7 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "data-view-naive": "^1.0.2",
+    "data-view-naive": "^1.0.3",
     "vue": "^3.2.2"
   },
   "devDependencies": {
