@@ -1,21 +1,21 @@
 <template>
   <div class="home">
-    <d-container class="container" :options="{width: 3840, height: 2160}">
+    <d-container class="container" :options="{ width: 3840, height: 2160 }">
       <p>icon</p>
       <p>
-        <d-icon name="check-circle" style="font-size: 100px;color: red;"></d-icon>
+        <d-icon name="check-circle" style="font-size: 100px; color: red"></d-icon>
       </p>
       <p>loading</p>
       <p>
-        <d-loading :width="200" :height="200"/>
+        <d-loading :width="200" :height="200" />
       </p>
     </d-container>
   </div>
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
-import { DIcon, DContainer, DLoading } from 'data-view-naive';
+import { defineComponent } from 'vue'
+import { DIcon, DContainer, DLoading } from 'data-view-naive'
 
 export default defineComponent({
   name: 'App',
@@ -36,7 +36,8 @@ export default defineComponent({
   width: 100vw;
   height: 100vh;
 }
-html, body {
+html,
+body {
   width: 100%;
   height: 100%;
 }
